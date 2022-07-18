@@ -192,3 +192,46 @@ header {
   font-size: 16px;
   color: #000;
 }
+
+.contact-group {
+  width: 800px;
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.right-contact-content {
+  width: 190px;
+  margin: 0 auto;
+}
+
+.right-contact-content .fa {
+  font-size: 50px;
+  margin-right: 20px;
+}
+.right-contact-content .fa:last-child {
+  margin-right: 0;
+}
+
+.link-text {
+  text-decoration: underline;
+  color: #212121;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
+}
