@@ -63,18 +63,18 @@ header {
   text-align: center;
 }
 
-#portfolio {
+#portfolio, #profile {
   background-color: #ECEFF1;
 }
 
-.pf-title {
+.sub-title {
   color: #000;
   font-size: 32px;
   text-align: center;
   padding-top: 90px;
 }
 
-.pf-title::after {
+.sub-title::after {
   content: "";
   display: block;
   width: 70px;
@@ -83,9 +83,80 @@ header {
   background-color: #EC715F;
 }
 
-.pf-text {
+.sub-text {
   color: #000;
   font-size: 16px;
   text-align: center;
   padding: 30px;
+}
+
+.production-group {
+  display: flex;
+  flex-flow: row wrap;
+  width: 920px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+  
+}
+
+.production {
+  width: 300px;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  margin: 10px 10px 0 0;
+}
+
+.production:nth-child(-n+3) {
+  margin-top: 0;
+}
+
+.production:nth-child(3n) {
+  margin-right: 0;
+}
+
+.bg-1 {
+  background-image: url(img/sketch.jpg);
+}
+.bg-2 {
+  background-image: url(img/websuku.png);
+}
+.bg-3 {
+  background-image: url(img/write.jpg);
+}
+.bg-4 {
+  background-image: url(img/webcamp.png);
+}
+.bg-5 {
+  background-image: url(img/talk.jpg);
+}
+.bg-6 {
+  background-image: url(img/webcamp-mother.png);
+}
+
+.strength-group {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.strength {
+  width: 320px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.strength:nth-child(-n+2) {
+  margin-right: 10px;
+}
+
+.strength-title {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #000;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
 }
